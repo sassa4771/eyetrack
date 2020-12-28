@@ -136,3 +136,4 @@ opencvとnumpyのバージョンを合わせると解決する。<br><br>
 ## ⑦完成
 <img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye04.gif" alt="画像処理で検出" title="eye04"><br><br>
 
+次は、web版でopencvとか使いたい。
