@@ -64,12 +64,12 @@ windowsでdlibを利用するにはPowerShellからCMakeをインストールし
 
 【opencvのダウンロード】<br>
 参考サイト：https://qiita.com/fiftystorm36/items/1a285b5fbf99f8ac82eb<br>
-よくコマンドを忘れるので、注意。
+よくコマンドを忘れるので、注意。<br>
 
 ## ④瞳の区画切り出し
 【瞳の区画切り出し】
 <img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye01.gif" alt="瞳の区画切り出し" title="eye01">
-<br>
+<br><br>
 
 【opencvで画像の切り出し方法】
 参考サイト：https://qiita.com/mo256man/items/e36797f9f44a64caf81c<br>
@@ -82,7 +82,19 @@ windowsでdlibを利用するにはPowerShellからCMakeをインストールし
 参考サイト：https://www.javadrive.jp/python/string/index9.html<br>
 【opencv画像を指定して保存】<br>
 参考サイト：https://www.it-swarm-ja.tech/ja/python/opencv%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%9F%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%83%BC%E3%81%AB%E7%94%BB%E5%83%8F%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B/830422001/<br>
+【画像の二値化】<br>
+参考サイト：https://qiita.com/tokkuri/items/ad5e858cbff8159829e9<br>
+<br>
 
 ## ⑤機械学習で検出（失敗）
+GoogleのTeachable Machineを利用としたが、dlibに使うnumpyと機械学習で使うTensorflowのnumpyが合わなかったため断念。<br>
+Teachable Machine:https://teachablemachine.withgoogle.com/<br><br>
+
 ## ⑥画像処理で検出（成功）
+【画像処理で検出】<br>
+<img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye04.gif" alt="画像処理で検出" title="eye04"><br>
+
+【平滑化、二値化、輪郭の抽出】<br>
+参考サイト：https://qiita.com/ankomotch/items/74884b0ca24b739159c0<br>
+
 ## ⑥その他試したこと(Docker接続など)
