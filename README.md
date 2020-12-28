@@ -131,9 +131,14 @@ opencvとnumpyのバージョンを合わせると解決する。<br><br>
 でアンインストールしてから、<br><br>
 
 ・pip install opencv-python==3.4.2.17 numpy==1.14.5<br>
-をする。<br><br>
+をする。<br>
+※↑python=3.6じゃないとインストールできない<br><br>
 
 ## ⑧完成
 <img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye04.gif" alt="画像処理で検出" title="eye04"><br><br>
 
 次は、web版でopencvとか使いたい。
+
+## 追記
+【瞬きの判定を入れた】
+<img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye05.gif" alt="瞬き判定" title="eye05"><br><br>
