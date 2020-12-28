@@ -16,6 +16,7 @@
 ⑦参考サイト<br>
 
 ## ①eyetracking(アイトラッキング・視線計測)とは？
+【eye trackingとは】
 eye trackingとは、ユーザーの視線の動きを計測し分析するアイトラッキング（視線計測）技術のこと。<br><br>
 
 ヒトの眼球運動を分析し、視覚的注意などを明らかにする生体計測手法です。<br>
@@ -53,7 +54,7 @@ CPU:Corei7<br>
 
 ## ③dlibを使った顔ランドマーク検出
 【dlibのインストール】
-<img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye00.gif" alt="dlibの顔ランドマーク検出" title="eye01">
+<img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye00.gif" alt="dlibの顔ランドマーク検出" title="eye00">
 <br>
 ※インストールが若干めんどくさい（windowsの場合）<br>
 windowsでdlibを利用するにはPowerShellからCMakeをインストールしないといけない。<br><br>
@@ -67,7 +68,7 @@ windowsでdlibを利用するにはPowerShellからCMakeをインストールし
 
 ## ④瞳の区画切り出し
 【瞳の区画切り出し】
-<img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye00.gif" alt="dlibの顔ランドマーク検出" title="eye01">
+<img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye01.gif" alt="瞳の区画切り出し" title="eye01">
 <br>
 
 【opencvで画像の切り出し方法】
