@@ -14,8 +14,8 @@ https://github.com/sassa4771/eyetrack/tree/main/Eye_Tracking_Program_by_dlib<br>
 ④瞳の区画切り出し<br>
 ⑤機械学習で検出（失敗）<br>
 ⑥画像処理で検出（成功）<br>
-⑥その他試したこと(Docker接続など)<br>
-⑦完成<br>
+⑦その他試したこと(Docker接続など)<br>
+⑧完成<br>
 
 ## ①eyetracking(アイトラッキング・視線計測)とは？
 【eye trackingとは】
@@ -110,7 +110,7 @@ keras==2.2.4,tensorflow==1.15.0,pillow==7.0.0
 
 <img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye03.gif" alt="画像処理で検出" title="eye03"><br><br>
 
-## ⑥その他試したこと(Docker接続など)
+## ⑦その他試したこと(Docker接続など)
 【Docker】<br>
 opencvとnumpyのインストールで苦戦したので、環境のリセットが容易なDockerをしようと試みた。<br>
 Windows版のDockerでは、カメラデバイスを検出できないため断念。<br>
@@ -133,7 +133,7 @@ opencvとnumpyのバージョンを合わせると解決する。<br><br>
 ・pip install opencv-python==3.4.2.17 numpy==1.14.5<br>
 をする。<br><br>
 
-## ⑦完成
+## ⑧完成
 <img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye04.gif" alt="画像処理で検出" title="eye04"><br><br>
 
 次は、web版でopencvとか使いたい。
