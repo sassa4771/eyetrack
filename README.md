@@ -1,4 +1,6 @@
 # Webカメラでeye tracking（アイトラッキング・視線計測）をする【Windows10】
+https://github.com/sassa4771/eyetrack/tree/main/Eye_Tracking_Program_by_dlib<br>
+ここのファイルの中身説明↑
 
 ## このGitHubでできること
 ・webカメラを利用した視線計測(以下の動画のイメージ)
@@ -87,6 +89,9 @@ windowsでdlibを利用するにはPowerShellからCMakeをインストールし
 <br>
 
 ## ⑤機械学習で検出（失敗）
+https://github.com/sassa4771/eyetrack/tree/main/tensorflow_pictures<br>
+↑ここのファイルの中身においてある。<br><br>
+
 GoogleのTeachable Machineを利用としたが、dlibに使うnumpyと機械学習で使うTensorflowのnumpyが合わなかったため断念。<br>
 Teachable Machine:https://teachablemachine.withgoogle.com/<br><br>
 
