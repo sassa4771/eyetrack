@@ -15,7 +15,7 @@ https://github.com/sassa4771/eyetrack/tree/main/Eye_Tracking_Program_by_dlib<br>
 ⑤機械学習で検出（失敗）<br>
 ⑥画像処理で検出（成功）<br>
 ⑥その他試したこと(Docker接続など)<br>
-⑦参考サイト<br>
+⑦完成<br>
 
 ## ①eyetracking(アイトラッキング・視線計測)とは？
 【eye trackingとは】
@@ -133,6 +133,6 @@ opencvとnumpyのバージョンを合わせると解決する。<br><br>
 ・pip install opencv-python==3.4.2.17 numpy==1.14.5<br>
 をする。<br><br>
 
-## 完成
+## ⑦完成
 <img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye04.gif" alt="画像処理で検出" title="eye04"><br><br>
 
