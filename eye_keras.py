@@ -1,9 +1,7 @@
 import tensorflow.keras
 from PIL import Image, ImageOps
 import numpy as np
-
-# Disable scientific notation for clarity
-np.set_printoptions(suppress=True)
+import keras.losses
 
 # Load the model
 model = tensorflow.keras.models.load_model('keras_model.h5')
