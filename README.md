@@ -32,13 +32,13 @@ AIによる視線推定などの研究も盛んに行われており、今後も
 
 【製品】<br>
 製品は、Tobiが有名<br>
-https://www.tobiipro.com/ja/<br>
-https://www.tobiipro.com/ja/service-support/learning-center/eye-tracking-essentials/what-is-dark-and-bright-pupil-tracking/<br><br>
+・https://www.tobiipro.com/ja/<br>
+・https://www.tobiipro.com/ja/service-support/learning-center/eye-tracking-essentials/what-is-dark-and-bright-pupil-tracking/<br><br>
 
 【瞳孔検出方法】<br>
 赤外線を利用した検出方法が主流<br>
-file:///C:/Users/sasat/Downloads/IPSJ-Z69-5P-08.pdf<br>
-https://www.tobiipro.com/ja/service-support/learning-center/eye-tracking-essentials/what-is-dark-and-bright-pupil-tracking/<br><br>
+・file:///C:/Users/sasat/Downloads/IPSJ-Z69-5P-08.pdf<br>
+・https://www.tobiipro.com/ja/service-support/learning-center/eye-tracking-essentials/what-is-dark-and-bright-pupil-tracking/<br><br>
 
 ## ②必要なライブラリ・動作環境
 【動作環境：(Let's Note)】<br>
@@ -52,17 +52,36 @@ CPU:Corei7<br>
 ・numpy
 
 ## ③dlibを使った顔ランドマーク検出
+【dlibのインストール】
 <img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye00.gif" alt="dlibの顔ランドマーク検出" title="eye01">
 <br>
 ※インストールが若干めんどくさい（windowsの場合）<br>
 windowsでdlibを利用するにはPowerShellからCMakeをインストールしないといけない。<br><br>
 
 参考にしたサイト：https://rikoubou.hatenablog.com/entry/2019/06/17/160248<br>
-【CMakeダウンロードサイト：https://cmake.org/download/】<br><br>
+【CMakeダウンロードサイト】：https://cmake.org/download/<br><br>
 
-
+【opencvのダウンロード】<br>
+参考サイト：https://qiita.com/fiftystorm36/items/1a285b5fbf99f8ac82eb<br>
+よくコマンドを忘れるので、注意。
 
 ## ④瞳の区画切り出し
+【瞳の区画切り出し】
+<img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye00.gif" alt="dlibの顔ランドマーク検出" title="eye01">
+<br>
+
+【opencvで画像の切り出し方法】
+参考サイト：https://qiita.com/mo256man/items/e36797f9f44a64caf81c<br>
+【opencvで画像サイズの拡大方法】
+参考サイト：https://qiita.com/kenfukaya/items/dfa548309c301c7087c4<br>
+【opencvウィンドウの変更】<br>
+参考サイト：https://qiita.com/Kazuhito/items/b2ebd9f9010f1ffcac5b<br>
+ウィンドウが表示される場所を固定するため。
+【int型をstring型に変更する方法】
+参考サイト：https://www.javadrive.jp/python/string/index9.html<br>
+【opencv画像を指定して保存】<br>
+参考サイト：https://www.it-swarm-ja.tech/ja/python/opencv%E9%81%B8%E6%8A%9E%E3%81%97%E3%81%9F%E7%89%B9%E5%AE%9A%E3%81%AE%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%83%BC%E3%81%AB%E7%94%BB%E5%83%8F%E3%82%92%E4%BF%9D%E5%AD%98%E3%81%99%E3%82%8B/830422001/<br>
+
 ## ⑤機械学習で検出（失敗）
 ## ⑥画像処理で検出（成功）
 ## ⑥その他試したこと(Docker接続など)
