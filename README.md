@@ -106,7 +106,12 @@ keras==2.2.4,tensorflow==1.15.0,pillow==7.0.0
 <img src="https://github.com/sassa4771/eyetrack/blob/main/Gif/eye03.gif" alt="画像処理で検出" title="eye03"><br><br>
 
 ## ⑥その他試したこと(Docker接続など)
-【opencvのインポートでエラー<br>
+【Docker】<br>
+opencvとnumpyのインストールで苦戦したので、環境のリセットが容易なDockerをしようと試みた。<br>
+Windows版のDockerでは、カメラデバイスを検出できないため断念。<br>
+(一応VirtualBoxを使えばできるらしいが、せっかくのコンテナなのにホスト型の仮想環境を使うのはナンセンスと思った。)<br><br>
+
+【opencvのインポートでエラー】<br>
 <h3>ImportError: numpy.core.multiarray failed to import</h3>
 がでる。<br><br>
 
