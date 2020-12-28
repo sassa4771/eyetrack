@@ -1,0 +1,5 @@
+0 r_eye_right
+1 r_eye_left
+2 r_eye_up
+3 r_eye_down
+4 r_eye_close
