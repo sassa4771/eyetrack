@@ -9,7 +9,7 @@ https://github.com/sassa4771/eyetrack/tree/main/Eye_Tracking_Program_by_dlib<br>
 
 ## 目次
 ①eyetracking(アイトラッキング・視線計測)とは？<br>
-②必要なライブラリ・動作環境<br>
+②必要なライブラリ・動作環境(※とりあえず動かしたい人はここから)<br>
 ③dlibを使った顔ランドマーク検出<br>
 ④瞳の区画切り出し<br>
 ⑤機械学習で検出（失敗）<br>
