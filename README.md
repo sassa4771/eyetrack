@@ -53,6 +53,16 @@ CPU:Corei7<br>
 ・dlib
 ・opencv
 ・numpy
+<br><br>
+
+【Anaconda環境インストールコマンド】<br>
+使用した環境は<a href='https://github.com/sassa4771/eyetrack/tree/main/Anaconda%20Environment'>eyetrack.yaml</a>にあります。<br>
+
+```
+cd 【eyetrack.yamlがあるとディレクトリ】
+conda env create -n eyetrack -f eyetrack.yaml
+```
+環境をインストールしたらmainファイルの<a href='https://github.com/sassa4771/eyetrack/tree/main/Eye_Tracking_Program_by_dlib'>run.bat</a>を起動するとソフトが起動できる。<br>
 
 ## ③dlibを使った顔ランドマーク検出
 【dlibのインストール】<br>
