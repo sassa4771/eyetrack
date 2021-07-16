@@ -2,6 +2,9 @@
 https://github.com/sassa4771/eyetrack/tree/main/Eye_Tracking_Program_by_dlib<br>
 ここのファイルの中身説明↑
 
+## Qiita
+https://qiita.com/sassa4771/items/fbfb0012744350cf4d93
+
 ## このGitHubでできること
 ・webカメラを利用した視線計測(以下の動画のイメージ)
 <br><br>
